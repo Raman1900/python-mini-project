@@ -20,3 +20,4 @@ steps:
       # Write your commands here
       
       docker pull zeronorth/integration
+      docker run -e CYBRIC_USER=raman.sharma -e CYBRIC_PASSWORD=Indianarmy2021 zeronorth/integration:latest python scenarios.py
